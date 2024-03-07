@@ -4,7 +4,7 @@ weatherapp
 
 Welcome to the Weather App! This application allows you to check the current weather and the forecast for the next three days in various cities around the world.
 ## Screenshots
-![Screenshot 1](./Images/WeatherImg.png)
+![Screenshot 1](./Images//MyWeather.png)
 
 ## Demo
 
