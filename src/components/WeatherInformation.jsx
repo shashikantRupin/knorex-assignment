@@ -62,7 +62,7 @@ const WeatherInformation = () => {
 
       const nextThreeDaysForecast = forecastData.list.filter((item, index) => {
         const itemDate = item.dt_txt.split(" ")[0];
-        return index % 8 === 0 && itemDate !== todayDate && index < 25; 
+        return index % 8 === 0 && itemDate !== todayDate && index <= 24; 
       });
 
       return nextThreeDaysForecast;
